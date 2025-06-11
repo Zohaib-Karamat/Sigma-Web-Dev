@@ -1,0 +1,20 @@
+body{
+    padding: 20px;
+}
+h1{
+    background-color: rgb(64, 64, 194);
+    padding-left: 10px;
+    color: white;
+}
+button{
+    border-radius: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: black;
+    color: wheat;
+}
