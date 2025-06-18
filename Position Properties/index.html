@@ -16,20 +16,36 @@
         }
         .box1{
             background-color: aquamarine;
-            position: sticky;
-            top: 0%;
+            position: relative;
+            z-index: 1;
         }
         .box2{
             background-color: rgb(255, 0, 0);
+            position: relative;
+            top: -300px;
+            left: 30px;
+            z-index: 2;
         }
         .box3{
             background-color: blueviolet;
+            position: relative;
+            top: -500px;
+            left: 70px;
+            z-index: 3;
         }
         .box4{
-            background-color: yellow;
+            background-color: yellow;   
+            position: relative;
+            top: -700px;
+            left: 90px;
+            z-index: 4;
         }
         .box5{
             background-color: tomato;
+            position: relative;
+            top: -800px;
+            left: 110px;
+            z-index: 5;
         }
         .parent {
             display: flex;
@@ -37,6 +53,11 @@
             align-items: center;
             justify-content: center;
         }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
     </style>
 </head>
 <body>
